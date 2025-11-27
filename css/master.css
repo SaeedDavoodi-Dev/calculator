@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .row{
+        @apply flex flex-wrap w-full;
+    }
+}

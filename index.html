@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+    <main class="w-full h-dvh 2xl:container mx-auto bg-gray-500">
+        <div class="row h-full justify-center items-center">
+            <div class="calc border-4 p-3 border-black rounded-xl bg-gray-100 w-5/6 sm:w-2/3 md:w-1/2 lg:w-2/5 xl:w-1/3  h-3/4">
+                <input type="text" placeholder="0" autofocus  class="border-2 text-right pr-2 text-4xl focus:a bg-cyan-100 border-black w-full h-1/6 rounded-lg">
+                <div class="w-full flex flex-wrap h-5/6 pt-5 pb-2 *:p-1 *:text-white *:rounded-lg *:w-1/4 *:h-1/5">
+                    <div><button onclick="_clear(this)" class="bg-orange-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer text-2xl shadow-[2px_2px_black]">AC</button></div>
+                    <div><button onclick="_clear(this)" class="bg-orange-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer text-2xl shadow-[2px_2px_black]">Del</button></div>
+                    <div><button onclick="_op(this)" class="bg-gray-800 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">%</button></div>
+                    <div><button onclick="_op(this)" class="bg-gray-800 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">/</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">7</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">8</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">9</button></div>
+                    <div><button onclick="_op(this)" class="bg-gray-800 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">*</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">4</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">5</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">6</button></div>
+                    <div><button onclick="_op(this)" class="bg-gray-800 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">-</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">1</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">2</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">3</button></div>
+                    <div><button onclick="_op(this)" class="bg-gray-800 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">+</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">00</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">0</button></div>
+                    <div><button onclick="num(this)" class="bg-gray-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">.</button></div>
+                    <div><button onclick="_op(this)" class="sum bg-sky-600 flex justify-center items-center w-full h-full rounded-lg cursor-pointer shadow-[2px_2px_black] text-2xl">=</button></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="js/master.js"></script>
+</html>
