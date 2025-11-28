@@ -1,6 +1,6 @@
 # 🎯 Calculator
 
-<img width="1000" height="432" alt="Image" src="https://github.com/user-attachments/assets/b3f1c1d3-ce0c-4ffb-ae42-cf1b6585b162" />
+<img width="1228" height="567" alt="Image" src="https://github.com/user-attachments/assets/fd5e46a7-0a30-4552-8667-574aa32b2323" />
 
   
 ## 📖 Description : 
