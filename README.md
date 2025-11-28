@@ -16,7 +16,7 @@ A fully responsive website built with Tailwind CSS, HTML, and CSS. Features mode
   
 ---
   
-- [Live Demo](https://saeeddavoodi-dev.github.io/project-Tailwind2/) <br>
+- [Live Demo](https://saeeddavoodi-dev.github.io/calculator/) <br>
   👆👆👆
     
   
